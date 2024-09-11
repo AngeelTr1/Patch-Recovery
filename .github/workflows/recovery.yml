@@ -3,14 +3,14 @@ name: RECOVERY
 on:
   workflow_dispatch:
     inputs:
-      RECOVERY_URL:
-        description: 'https://transfer.sh/%28Could%20not%20save%20metadata%29.zip'
+      RECOVERY_URL: 
+        description: 'RECOVERY_URL'
         required: true
-        default: 'https://transfer.sh/(RECOMMENDED)'
+        default: 'https://transfer.sh/%28Could%20not%20save%20metadata%29.zip''
 
 env:
-  RECOVERY_URL: https://oshi.at/Rpjg
-
+  RECOVERY_URL: 'https://transfer.sh/%28Could%20not%20save%20metadata%29.zip'
+c
 jobs:
   build:
     runs-on: ubuntu-latest
