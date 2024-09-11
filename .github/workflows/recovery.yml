@@ -3,10 +3,10 @@ name: RECOVERY
 on:
   workflow_dispatch:
     inputs:
-      RECOVERY_URL: 
+      RECOVERY_URL: 'C:\Users\SaraH\Downloads\recovery.img'
         description: 'RECOVERY_URL'
         required: true
-        default: 'https://transfer.sh/%28Could%20not%20save%20metadata%29.zip''
+        default: 'https://transfer.sh/%28Could%20not%20save%20metadata%29.zip'
 
 env:
   RECOVERY_URL: 'https://transfer.sh/%28Could%20not%20save%20metadata%29.zip'
